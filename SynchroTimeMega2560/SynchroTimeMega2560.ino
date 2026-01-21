@@ -1,9 +1,13 @@
 //------------------------------------------------------------------------------
-//  Home Office
-//  Nürnberg, Germany
-//  E-Mail: sergej1@email.ua
-//  Version 2.4.4 / Compatible with SynchroTimeApp version 2.x.x
-//  Copyright (C) 2022 free Project SynchroTime. All rights reserved.
+//  SynchroTime-Mega2560
+//  
+//  Modified and refactored arduino sketch version of SynchroTime by SergejBre.
+//  Optimized specifically for Arduino Mega 2560 compatibility.
+//
+//  Copyright (C) 2020 SergejBre (sergej1@email.ua)
+//  Copyright (C) 2025 vladimir7xr@gmail.com
+//
+//  Released under the MIT License.
 //------------------------------------------------------------------------------
 /*
 This sketch performs as a server on an arduino controller for connecting the PC with an RTC DS3231 module via a serial port.
@@ -1011,3 +1015,4 @@ bool i2c_eeprom_write_page(int deviceAddress, unsigned int eeAddressPage, const 
   }
   return false;
 }
+
