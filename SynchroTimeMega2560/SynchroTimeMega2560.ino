@@ -16,7 +16,7 @@ This sketch performs as a server on an arduino controller for connecting the PC 
   - correct the frequency drift of the RTC DS3231 oscillator;
   - evaluate the accuracy and reliability of the RTC oscillator for a specific sample,
     as well as the chances of a successful correction in the event of a significant frequency drift;
-  - save parameters and calibration data to the energy-independent flash memory AT24C256;
+  - save parameters and calibration data to the energy-independent flash memory AT24C32D;
   - read value from the Aging register;
   - write value to the Aging register.
 The settings are:
@@ -1015,5 +1015,6 @@ bool i2c_eeprom_write_page(int deviceAddress, unsigned int eeAddressPage, const 
   }
   return false;
 }
+
 
 
