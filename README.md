@@ -1,6 +1,6 @@
 # SynchroTime-Mega2560
 
-**Refactored and optimized version of the [SynchroTime](https://github.com/SergejBre/SynchroTime) project for Arduino Mega 2560 compatibility.**
+**Refactored and optimized version of the [SynchroTime](https://github.com/SergejBre/SynchroTime) project sketch for Arduino Mega 2560 compatibility.**
 
 ## Overview
 This version is a complete rewrite of the original SynchroTime sketch. While the core time-drift calculation logic remains the same, the implementation has been updated to fix stability issues on the Mega 2560 and to add hardware-level data protection.
