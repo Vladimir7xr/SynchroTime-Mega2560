@@ -5,7 +5,7 @@
 //  Optimized specifically for Arduino Mega 2560 compatibility.
 //
 //  Copyright (C) 2020 SergejBre (sergej1@email.ua)
-//  Copyright (C) 2025 vladimir7xr@gmail.com
+//  Copyright (C) 2025 Vladimir7xr (https://github.com/Vladimir7xr)
 //
 //  Released under the MIT License.
 //------------------------------------------------------------------------------
@@ -1015,4 +1015,5 @@ bool i2c_eeprom_write_page(int deviceAddress, unsigned int eeAddressPage, const 
   }
   return false;
 }
+
 
